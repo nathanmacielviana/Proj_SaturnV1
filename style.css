@@ -14,8 +14,6 @@ svg {
     fill: white
 }
 
-
-
 body {
     background-color: #000;
     color: #fff;
@@ -42,7 +40,6 @@ header {
     height: 100px;
     max-width: 100px;
 }
-
 
 /* Estilos do botão hambúrguer */
 .menu-toggle {
@@ -160,17 +157,6 @@ nav a:hover::after {
     color: white;
 }
 
-/* Animação */
-.animation_conteiner img {
-    height: 300px;
-    transition: transform 0.3s ease-in-out;
-}
-
-.animation_conteiner img:hover {
-    transform: scale(1.2);
-    filter: drop-shadow(-8px 5px 10px #fb0165);
-}
-
 /* Seção Sobre Nós */
 .about_us_conteiner {
     background-color: #fb0165;
@@ -197,7 +183,6 @@ nav a:hover::after {
     font-family: 'Anta';
 
 }
-
 
 .cards_conteiner {
     display: flex;
@@ -250,6 +235,7 @@ nav a:hover::after {
     gap: 15px;
     max-width: 500px;
     margin: auto;
+    font-family: sans-serif;
 }
 
 .contact input,
@@ -262,6 +248,7 @@ nav a:hover::after {
     color: black;
     font-size: 1rem;
     resize: none;
+    font-family: sans-serif;
 }
 
 .contact button {
@@ -295,8 +282,6 @@ nav a:hover::after {
     text-decoration: none; 
 }
 
-
-
 .botaotop a:hover
 {
     transform: scale(1.1);
@@ -316,7 +301,6 @@ nav a:hover::after {
     font-size: 1rem;
     color: rgba(255, 255, 255, 0.6);
 }
-
 
 .portfolio_conteiner {
     background-color: #000000;
@@ -395,69 +379,4 @@ nav a:hover::after {
 
 .portfolio_card a:hover {
     background: #ff3377;
-}
-
-
-/* Estilos do menu mobile */
-@media (max-width: 768px) {
-    .menu-toggle {
-        display: flex;
-    }
-
-    .wrapple_texts h1 {
-    font-family: 'Anta';
-    font-size: 2rem;
-   
-}
-
-.wrapple_texts p {
-    font-size: 1rem;
-   
-}
-
-    .nav-menu {
-        display: block;
-        position: fixed;
-        top: 0;
-        right: -100%;
-        width: 250px;
-        height: 100vh;
-        background: rgba(0, 0, 0, 0.9);
-        backdrop-filter: blur(10px);
-        transition: right 0.3s ease-in-out;
-        padding-top: 60px;
-    }
-
-    .nav-menu ul {
-        flex-direction: column;
-        align-items: center;
-        padding: 0;
-    }
-
-    .nav-menu ul li {
-        margin: 20px 0;
-        text-align: center;
-    }
-
-    .nav-menu ul li a {
-        font-size: 1.3em;
-    }
-
-    /* Quando o menu está ativo */
-    .nav-menu.active {
-        right: 0;
-    }
-}
-
-/* Animação para o menu ativo */
-.menu-toggle.active span:nth-child(1) {
-    transform: translateY(10px) rotate(45deg);
-}
-
-.menu-toggle.active span:nth-child(2) {
-    opacity: 0;
-}
-
-.menu-toggle.active span:nth-child(3) {
-    transform: translateY(-10px) rotate(-45deg);
 }
