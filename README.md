@@ -11,6 +11,7 @@
 <img aling="center" alt="html5" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
 </p>
 <h2 align="center">Quem somos 💻</h2>
+<img src="https://github.com/nathanmacielviana/Portfolio/blob/main/images/saturnpage.png" align="right" min-width="400px" max-width="400px" width="400px">
 <p align="left">
   Apresentamos a Saturn FrontWork: Transformando ideias em experiências digitais! <br>
   O digital evolui rápido - e sua marca precisa acompanhar. A Saturn FrontWork nasceu para criar experiências Front End de alto desempenho, combinando design, usabilidade e tecnologia para transformar interfaces em verdadeiras conexões entre marcas e usuários. <br><br> Somos especialistas em Javascript, React, NextJS, Astro e mais, desenvolvendo interfaces modernas, responsivas e otimizadas para SEO e performance. Seja para startups, empresas consolidadas ou projetos de impacto social, entregamos soluções que não apenas funcionam, mas encantam e convertem.
